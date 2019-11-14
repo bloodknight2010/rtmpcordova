@@ -1,0 +1,83 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-camera-preview": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-image-picker": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-ionic-keyboard": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "209684299935241",
+            "APP_NAME": "Vidya",
+            "FACEBOOK_HYBRID_APP_EVENTS": "false",
+            "FACEBOOK_ANDROID_SDK_VERSION": "4.40.0",
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-mediapicker-dmcsdk": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-volume-control": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-fcm": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-facebook-account-kit": {
+            "APP_ID": "209684299935241",
+            "APP_NAME": "Vidya",
+            "AK_TOKEN": "dc275995f3192176910d67fe907e4a54",
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-navigationbar-color": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-webintent": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        },
+        "cordova-rtsp-rtmp-stream": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.embercordova.vidyaFrontend"
+        }
+    }
+}

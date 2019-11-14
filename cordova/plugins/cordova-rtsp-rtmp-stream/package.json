@@ -1,0 +1,44 @@
+{
+  "name": "cordova-rtsp-rtmp-stream",
+  "cordova_name": "Cordova RTMP and RTSP Live Streamer for Android",
+  "version": "0.1.24",
+  "description": "Cross-platform plugin for Cordova / PhoneGap to to easily stream RTSP or RTMP. Available for Android ONLY.",
+  "cordova": {
+    "id": "cordova-rtsp-rtmp-stream",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disono/cordova-rtmp-rtsp-stream.git"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "rtsp",
+    "rtmp",
+    "stream",
+    "video-stream",
+    "rtsp",
+    "cordova-android",
+    "ionic-rtmp",
+    "ionic-rtsp",
+    "android-rtmp",
+    "android-rtsp",
+    "cordova-live-stream",
+    "live-stream"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Archie Disono",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/disono/cordova-rtmp-rtsp-stream"
+  },
+  "homepage": "https://github.com/disono/cordova-rtmp-rtsp-stream/blob/master/README.md"
+}

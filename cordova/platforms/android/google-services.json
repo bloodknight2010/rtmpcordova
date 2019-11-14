@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368316619099",
+    "firebase_url": "https://vidya-67794.firebaseio.com",
+    "project_id": "vidya-67794",
+    "storage_bucket": "vidya-67794.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368316619099:android:7d9504d6291286b7",
+        "android_client_info": {
+          "package_name": "com.embercordova.vidyaFrontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368316619099-gqvsr1fj618vn5op1i9fkbcmcnfmufnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC08UnSu1n7DkFT52bklZF8X40qXeNLu2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368316619099-gqvsr1fj618vn5op1i9fkbcmcnfmufnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

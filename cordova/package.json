@@ -1,0 +1,67 @@
+{
+    "name": "com.embercordova.vidyaFrontend",
+    "version": "1.0.0",
+    "displayName": "vidyaFrontend",
+    "cordova": {
+        "platforms": [
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-android-permissions": {},
+            "cordova-plugin-media-capture": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-camera-preview": {},
+            "cordova-plugin-camera": {},
+            "cordova-plugin-image-picker": {},
+            "cordova-plugin-ionic-keyboard": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-facebook4": {
+                "APP_ID": "209684299935241",
+                "APP_NAME": "Vidya",
+                "FACEBOOK_HYBRID_APP_EVENTS": "false",
+                "FACEBOOK_ANDROID_SDK_VERSION": "4.40.0"
+            },
+            "cordova-plugin-mediapicker-dmcsdk": {},
+            "cordova-plugin-file": {},
+            "cordova-plugin-file-transfer": {},
+            "cordova-plugin-volume-control": {},
+            "cordova-plugin-fcm": {},
+            "cordova-plugin-facebook-account-kit": {
+                "APP_ID": "209684299935241",
+                "APP_NAME": "Vidya",
+                "AK_TOKEN": "dc275995f3192176910d67fe907e4a54"
+            },
+            "cordova-plugin-navigationbar-color": {},
+            "cordova-webintent": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-firebase-analytics": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-rtsp-rtmp-stream": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "~6.2.3",
+        "cordova-plugin-android-permissions": "~1.0.0",
+        "cordova-plugin-camera": "~2.4.1",
+        "cordova-plugin-camera-preview": "~0.10.0",
+        "cordova-plugin-facebook4": "~4.2.1",
+        "cordova-plugin-image-picker": "~1.1.1",
+        "cordova-plugin-ionic-keyboard": "~2.1.3",
+        "cordova-plugin-media-capture": "~1.4.3",
+        "cordova-plugin-splashscreen": "~5.0.2",
+        "cordova-plugin-whitelist": "~1.3.3",
+        "cordova-plugin-facebook-account-kit": "~0.1.6",
+        "cordova-plugin-mediapicker-dmcsdk": "https://github.com/DmcSDK/cordova-plugin-mediaPicker.git",
+        "cordova-plugin-file": "~4.3.3",
+        "cordova-plugin-file-transfer": "~1.7.1",
+        "cordova-plugin-volume-control": "~0.1.8",
+        "cordova-plugin-fcm": "~2.1.2",
+        "cordova-plugin-accountkit": "~1.4.0",
+        "cordova-plugin-navigationbar-color": "~0.0.8",
+        "cordova-webintent": "https://github.com/cordova-misc/cordova-webintent.git",
+        "cordova-plugin-device": "~2.0.3",
+        "cordova-plugin-firebase-analytics": "~3.0.0",
+        "cordova-plugin-inappbrowser": "~3.1.0",
+        "cordova-rtsp-rtmp-stream": "~0.1.18"
+    }
+}

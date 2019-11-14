@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vidya</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<meta name="vidya-frontend/config/environment" content="%7B%22modulePrefix%22%3A%22vidya-frontend%22%2C%22environment%22%3A%22development%22%2C%22rootURL%22%3A%22%22%2C%22locationType%22%3A%22hash%22%2C%22liveHost%22%3A%22http%3A//streaming.vidya.social%3A8080/%22%2C%22localHost%22%3A%22https%3A//app.vidya.social%22%2C%22pilboxHost%22%3A%22http%3A//image.vidya.social%22%2C%22remoteHost%22%3A%22https%3A//app.vidya.social%22%2C%22FB%22%3A%7B%22appId%22%3A%22209684299935241%22%2C%22version%22%3A%22v3.2%22%2C%22xfbml%22%3Atrue%7D%2C%22torii%22%3A%7B%22sessionServiceName%22%3A%22session%22%2C%22providers%22%3A%7B%22facebook-connect%22%3A%7B%22appId%22%3A%22209684299935241%22%2C%22scope%22%3A%22public_profile%2Cemail%22%7D%7D%7D%2C%22AccountKit%22%3A%7B%22init%22%3A%7B%22appId%22%3A%22209684299935241%22%2C%22state%22%3A%22%7B%7Bcsrf%7D%7D%22%2C%22version%22%3A%22v1.0%22%2C%22fbAppEventsEnabled%22%3Atrue%7D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22EmberHammertime%22%3A%7B%22touchActionOnAction%22%3Atrue%2C%22touchActionAttributes%22%3A%5B%22onclick%22%5D%2C%22touchActionSelectors%22%3A%5B%22button%22%2C%22input%22%2C%22a%22%2C%22textarea%22%5D%2C%22touchActionProperties%22%3A%22touch-action%3A%20manipulation%3B%20-ms-touch-action%3A%20manipulation%3B%20cursor%3A%20pointer%3B%22%7D%2C%22APP%22%3A%7B%22usingCors%22%3Atrue%2C%22corsWithCreds%22%3Atrue%2C%22apiURL%22%3A%22https%3A//192.168.10.71%3A8181%22%2C%22name%22%3A%22vidya-frontend%22%2C%22version%22%3A%220.0.0%22%7D%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%22%27self%27%20https%3A//192.168.10.71%3A8181%20https%3A//vidya.hexcode.tech%20https%3A//app.vidya.social%22%2C%22style-src%22%3A%22%27self%27%20%27unsafe-inline%27%20fonts.googleapis.com%22%2C%22script-src%22%3A%22%27self%27%20%27unsafe-eval%27%20%27unsafe-inline%27%20data%3A%20*.googleapis.com%20*.google.com%20https%3A//192.168.10.71%3A8181%20https%3A//vidya.hexcode.tech%20https%3A//app.vidya.social%22%2C%22connect-src%22%3A%22%27self%27%20https%3A//192.168.10.71%3A8181%20https%3A//vidya.hexcode.tech%20https%3A//app.vidya.social%22%7D%2C%22ember-paper%22%3A%7B%22insertFontLinks%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Atrue%2C%22emberInitials%22%3A%7B%22image%22%3A%7B%22defaultImageUrl%22%3A%22%22%7D%2C%22gravatar%22%3A%7B%22defaultImageUrl%22%3A%22%22%7D%7D%2C%22ember-websockets%22%3A%7B%22socketIO%22%3Afalse%7D%7D" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic"> <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link integrity="" rel="stylesheet" href="assets/vendor.css">
+  <link integrity="" rel="stylesheet" href="assets/vidya-frontend.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <!-- <link  href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.3/viewer.css" rel="stylesheet"> -->
+  <link  href="css/viewer.css" rel="stylesheet">
+  <link rel="stylesheet" href="font/MaterialIcons-Regular.ttf">
+  
+</head>
+<body class="black-bkg">
+  <script src="cordova.js"></script>
+  <script src="assets/vendor.js"></script>
+  <script src="assets/vidya-frontend.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
+  <script src="js/viewer.js"></script>
+  <script src="js/imgcache.js"></script>
+  <script src="js/imgcache-promise.js"></script>
+  <script src="js/viewer.js"></script>
+  <!-- <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-performance.js"></script> -->
+  <!-- <script defer src="./init-firebase.js"></script> -->
+  <script type="text/javascript">
+    AccountKit_OnInteractive = function() {
+      AccountKit.init({
+        appId: "209684299935241",
+        state: "{{csrf}}",
+        version: "v1.0",
+        fbAppEventsEnabled: true
+      });
+
+      function init() {
+        document.addEventListener("deviceready", console.log('ready'), true);
+      }
+
+      function playVideo(vidUrl) {
+        window.plugins.videoPlayer.play(vidUrl);
+      }
+    };
+  </script>
+  <script src="https://sdk.accountkit.com/en_US/sdk.js"></script>
+  <script type = "text/javascript">
+</script>
+  <div id="ember-basic-dropdown-wormhole"></div>
+
+          
+          <div id="paper-wormhole"></div>
+          <div id="paper-toast-fab-wormhole"></div>
+        
+</body>
+
+</html>

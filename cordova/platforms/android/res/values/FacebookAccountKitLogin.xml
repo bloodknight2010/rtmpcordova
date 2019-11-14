@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="fbak_app_id">209684299935241</string>
+    <string name="fbak_app_name">Vidya</string>
+    <string name="fbak_app_ak_token">dc275995f3192176910d67fe907e4a54</string>
+    <style name="AccountKitLoginTheme" parent="Theme.AccountKit">
+        <item name="com_accountkit_background_color">#EEF6FF</item>
+        <item name="com_accountkit_button_background_color">#96BDEB</item>
+        <item name="com_accountkit_button_disabled_background_color">#96BDEB</item>
+        <item name="com_accountkit_button_border_color">#96BDEB</item>
+        <item name="com_accountkit_button_text_color">#ffffff</item>
+        <item name="com_accountkit_header_background_color">#96BDEB</item>
+        <item name="com_accountkit_header_text_color">#ffffff</item>
+        <item name="com_accountkit_input_background_color">#EEF6FF</item>
+        <item name="com_accountkit_input_border_color">#96BDEB</item>
+        <item name="com_accountkit_input_text_color">#da4a11</item>
+        <item name="com_accountkit_text_color">#da4a11</item>
+        <item name="com_accountkit_title_text_color">#da4a11</item>
+    </style>
+</resources>
